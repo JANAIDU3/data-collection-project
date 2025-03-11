@@ -1,0 +1,14 @@
+# Ignore raw data files (large or sensitive)
+data/raw/*
+
+# Ignore environment variables or sensitive config files
+*.env
+*.json
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore system files like thumbs.db or desktop.ini
+Thumbs.db
+desktop.ini
